@@ -4,7 +4,7 @@
 
 ## 📧 联系方式  
 - **Email:** tiankh@mail2.sysu.edu.cn  
-- **GitHub:** [qingfeng7843](https://github.com/qingfeng7843)  
+- **GitHub:** [tiankanghui](https://github.com/tiankanghui)  
 
 ## 🔬 研究兴趣  
 - 计算机视觉（Computer Vision）  
