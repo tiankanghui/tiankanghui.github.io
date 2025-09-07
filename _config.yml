@@ -1,23 +1,4 @@
 title: "田康辉 | Kanghui Tian"
-description: "中山大学智能科学与技术大四在读 | 计算机视觉 · 多模态大模型 | Sun Yat-sen University, Undergraduate in Intelligent Science and Technology | Computer Vision · Multimodal Large Language Model"
+description: ""
 theme: jekyll-theme-minimal
 show_downloads: false
-
-# GitHub 设置
-github:
-  is_project_page: false
-
-author:
-  name: "田康辉"
-  email: "tiankh@mail2.sysu.edu.cn"
-  github: "https://github.com/yourgithub"
-  linkedin: "https://www.linkedin.com/in/yourprofile/"
-  google_scholar: "https://scholar.google.com/citations?user=yourID"
-
-# 插件（SEO 优化）
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# 网站图标（可选）
-favicon: "/assets/favicon.ico"
