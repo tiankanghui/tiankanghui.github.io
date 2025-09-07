@@ -1,10 +1,10 @@
 # 👋 About Me
 
-Undergraduate at Sun Yat-sen University, School of Intelligent Engineering, Shenzhen  
-Major: Intelligent Science and Technology  
+**Undergraduate at Sun Yat-sen University, School of Intelligent Engineering, Shenzhen**  
+**Major: Intelligent Science and Technology**  
 
-- GPA: 4.22 / 5.00 | Score: 92.16 / 100 | Class Rank: 3 / 187 (Top 1.6%)  
-- Key Courses: Mobile Robot Planning and Control (100), Engineering Mathematics (98), Operations Research (97), Database Systems (96), Image Processing (95), Data Structures & Algorithms (95), Deep Learning (94), Computer Vision (93), Computer Networks (91)
+- **GPA:** 4.22 / 5.00 | **Score:** 92.16 / 100 | **Rank:** 3 / 187 (Top 1.6%)  
+- **Key Courses:** Mobile Robot Planning and Control (100), Engineering Mathematics (98), Operations Research (97), Database Systems (96), Image Processing (95), Data Structures & Algorithms (95), Deep Learning (94), Computer Vision (93), Computer Networks (91)
 
 ---
 
@@ -32,7 +32,7 @@ Major: Intelligent Science and Technology
 
 - **Hierarchical Decoupled Adaptation for Generalized Multimodal Representation Learning** 
   - Independently designed a two-stage training framework for multimodal large model research.  
-  - Conducted literature review, formulated research plan, implemented code and experiments11.
+  - Conducted literature review, formulated research plan, implemented code and experiments.
 
 ---
 
