@@ -1,4 +1,4 @@
-# 👋 About Me
+# 👋 田康辉 | Kanghui Tian
 
 **Undergraduate at Sun Yat-sen University, School of Intelligent Engineering, Shenzhen**  
 **Major: Intelligent Science and Technology**  
