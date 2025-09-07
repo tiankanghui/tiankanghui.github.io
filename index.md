@@ -32,7 +32,7 @@ Major: Intelligent Science and Technology
 
 - **Hierarchical Decoupled Adaptation for Generalized Multimodal Representation Learning** 
   - Independently designed a two-stage training framework for multimodal large model research.  
-  - Conducted literature review, formulated research plan, implemented code and experiments.
+  - Conducted literature review, formulated research plan, implemented code and experiments11.
 
 ---
 
