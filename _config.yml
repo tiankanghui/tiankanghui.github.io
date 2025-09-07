@@ -14,9 +14,10 @@ author:
   linkedin: "https://www.linkedin.com/in/yourprofile/"
   google_scholar: "https://scholar.google.com/citations?user=yourID"
 
-# 插件（SEO 和 Sitemap）
+# 插件（SEO 优化）
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# 网站图标（可选）
 favicon: "/assets/favicon.ico"
