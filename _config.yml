@@ -1,9 +1,25 @@
-title: "田康辉 | Tian Kanghui"
-description: "中山大学智能工程学院 | 计算机视觉 | 机器学习 | 机器人"
+title: "田康辉 | Kanghui Tian"
+description: "中山大学智能科学与技术大四在读 | 计算机视觉 · 多模态大模型 | Computer Vision · Multimodal Large Language Model (MLLM)"
 theme: jekyll-theme-minimal
 show_downloads: false
+
+# GitHub Pages 设置
 github:
   is_project_page: false
+
 author:
   name: "田康辉"
   email: "tiankh@mail2.sysu.edu.cn"
+  # url: "https://yourpersonalhomepage.com" # 主页或学术主页链接
+  # linkedin: "https://www.linkedin.com/in/yourprofile/"
+  # google_scholar: "https://scholar.google.com/citations?user=yourID"
+  # github: "https://github.com/yourgithub"
+
+# SEO 优化
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 网站图标
+favicon: "/assets/favicon.ico"
+
