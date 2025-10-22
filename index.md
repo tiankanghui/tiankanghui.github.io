@@ -1,7 +1,7 @@
 # ⭐ 田康辉 | Kanghui Tian
 
-**Undergraduate at Sun Yat-sen University, School of Intelligent Engineering, Shenzhen**  
-**Major: Intelligent Science and Technology**  
+**Undergraduate at [Sun Yat-sen University], School of Intelligent Engineering, Shenzhen**  
+**Incoming Ph.D. Student at [Shanghai Artificial Intelligence Laboratory] & [Fudan University](2026 Fall)**  
 
 - **GPA:** 4.22 / 5.00 | **Score:** 92.16 / 100 | **Rank:** 3 / 187 (Top 1.6%)  
 - **Key Courses:** Mobile Robot Planning and Control (100), Engineering Mathematics (98), Operations Research (97), Database Systems (96), Image Processing (95), Data Structures & Algorithms (95), Deep Learning (94), Computer Vision (93), Computer Networks (91)
