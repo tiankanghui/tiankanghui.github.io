@@ -47,3 +47,5 @@
 
 - 📧 Email: [tiankh@mail2.sysu.edu.cn](mailto:tiankh@mail2.sysu.edu.cn)
 - 💬 WeChat: tiankhright2200
+
+**[📄 View Full CV (PDF)](Kanghui_Tian_CV.pdf){:target="_blank"}**
