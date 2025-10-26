@@ -3,6 +3,10 @@
 **Undergraduate at Sun Yat-sen University, School of Intelligent Engineering, Shenzhen**  
 **Incoming Ph.D. Student at Shanghai Artificial Intelligence Laboratory & Fudan University**  
 
+<p align="left">
+  📄 <a href="assets/cv_tiankanghui.pdf" target="_blank"><strong>View Full CV (PDF)</strong></a>
+</p>
+
 - **GPA:** 4.22 / 5.00 | **Score:** 92.16 / 100 | **Rank:** 3 / 187 (Top 1.6%)  
 - **Key Courses:** Mobile Robot Planning and Control (100), Engineering Mathematics (98), Operations Research (97), Database Systems (96), Image Processing (95), Data Structures & Algorithms (95), Deep Learning (94), Computer Vision (93), Computer Networks (91)
 
@@ -48,10 +52,3 @@
 - 📧 Email: [tiankh@mail2.sysu.edu.cn](mailto:tiankh@mail2.sysu.edu.cn)
 - 💬 WeChat: tiankhright2200
 
----
-
-<p align="center">
-  📄 <strong><a href="assets/CV_KanghuiTian.pdf" target="_blank">View Full CV (PDF)</a></strong>
-</p>
-
----
