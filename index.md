@@ -2,13 +2,9 @@
 
 **Undergraduate at Sun Yat-sen University, School of Intelligent Engineering, Shenzhen**  
 **Incoming Ph.D. Student at Shanghai Artificial Intelligence Laboratory & Fudan University**  
-
-<p align="center">
-  <a href="assets/CV_KanghuiTian.pdf" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/View%20Full%20CV-PDF-blue?style=flat-square&logo=adobeacrobatreader" alt="View Full CV">
-  </a>
+<p align="left">
+  📄 <strong><a href="assets/CV_KanghuiTian.pdf" target="_blank">View Full CV (PDF)</a></strong>
 </p>
-
 - **GPA:** 4.22 / 5.00 | **Score:** 92.16 / 100 | **Rank:** 3 / 187 (Top 1.6%)  
 - **Key Courses:** Mobile Robot Planning and Control (100), Engineering Mathematics (98), Operations Research (97), Database Systems (96), Image Processing (95), Data Structures & Algorithms (95), Deep Learning (94), Computer Vision (93), Computer Networks (91)
 
