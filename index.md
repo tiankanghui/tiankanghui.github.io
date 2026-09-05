@@ -71,7 +71,7 @@ title: Kanghui Tian · Ph.D. Student
         </article>
         <article class="record">
           <time>Mar – Jun 2025</time>
-          <div><h3>Multimodal Representation Learning</h3><p class="institution">Independent Research Project</p><p>Designed and implemented a two-stage hierarchical decoupling adaptation framework and its evaluation protocols.</p></div>
+          <div><h3>Multimodal Representation Learning</h3><p class="institution">Institute of Automation, Chinese Academy of Sciences (CASIA)</p><p>Designed and implemented a two-stage hierarchical decoupling adaptation framework and its evaluation protocols.</p></div>
         </article>
         <article class="record">
           <time>Sep 2024 – Apr 2025</time>
