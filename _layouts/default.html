@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="theme-color" content="#07111f">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Kanghui Tian, home">
+          <span class="brand-mark">KT</span>
+          <span>Kanghui Tian</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+        </nav>
+      </header>
+      <main id="top">{{ content }}</main>
+      <footer>
+        <span>© {{ 'now' | date: '%Y' }} Kanghui Tian</span>
+        <span>Researching multimodal intelligence.</span>
+      </footer>
+    </div>
+  </body>
+</html>
