@@ -25,7 +25,7 @@ title: Kanghui Tian · Ph.D. Student
   <div class="academic-content">
     <section class="intro" id="research">
       <p class="overline">Research profile</p>
-      <h2>Multimodal learning and intelligent agents</h2>
+      <h2>Multimodal Learning &amp; Intelligent Agents</h2>
       <p>I am a first-year Ph.D. student at Shanghai Artificial Intelligence Laboratory and Fudan University. My research focuses on multimodal large language models, large video understanding models, LLM post-training, on-policy distillation, and agent recursive self-improvement (Agent RSI).</p>
       <ul class="interest-list">
         <li>Multimodal LLMs</li>
