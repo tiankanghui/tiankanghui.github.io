@@ -1,26 +1,26 @@
 ---
 layout: default
-title: Kanghui Tian · AI Researcher
+title: Kanghui Tian · Ph.D. Student
 ---
 
 <section class="hero">
   <div>
-    <p class="kicker">Multimodal Intelligence · LLM Post-Training</p>
-    <h1>Building models that <span>see, reason, and learn.</span></h1>
-    <p class="lede">I am Kanghui Tian, an incoming Ph.D. student at Shanghai Artificial Intelligence Laboratory and Fudan University. My research centers on multimodal large language models, large video understanding models, and reinforcement learning for post-training.</p>
+    <p class="kicker">Ph.D. Student · Multimodal Learning</p>
+    <h1>Kanghui Tian</h1>
+    <p class="lede">I am a first-year Ph.D. student at Shanghai Artificial Intelligence Laboratory and Fudan University. My research interests include multimodal large language models, video understanding, online distillation, LLM post-training, and agent recursive self-improvement (Agent RSI).</p>
     <div class="actions">
       <a class="button primary" href="https://scholar.google.com/citations?hl=zh-CN&amp;user=r5Mm2eUAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
       <a class="button" href="mailto:2200393561@qq.com">Email me</a>
     </div>
   </div>
   <aside class="profile-card" aria-label="Current academic status">
-    <span class="status">Incoming Ph.D. · Sep 2026</span>
-    <h2>Computer Science &amp;<br>Artificial Intelligence</h2>
-    <p>Joint doctoral program at Shanghai AI Laboratory and Fudan University.</p>
+    <span class="status">Ph.D. Student · 2026 — Present</span>
+    <h2>Shanghai AI Laboratory<br>&amp; Fudan University</h2>
+    <p>Ph.D. student in Computer Science and Technology through the joint doctoral program.</p>
     <dl>
       <div><dt>Based in</dt><dd>Shanghai, China</dd></div>
-      <div><dt>Focus</dt><dd>Multimodal AI</dd></div>
-      <div><dt>Current role</dt><dd>Tongyi Lab</dd></div>
+      <div><dt>Focus</dt><dd>Multimodal Learning</dd></div>
+      <div><dt>Current role</dt><dd>Ph.D. Student</dd></div>
       <div><dt>WeChat</dt><dd>tkhright2200</dd></div>
     </dl>
   </aside>
@@ -29,8 +29,8 @@ title: Kanghui Tian · AI Researcher
 <section class="section" id="research">
   <header><span class="section-label">01 / Research</span><h2 class="section-title">What I work on</h2></header>
   <div>
-    <p class="section-intro">I am interested in training multimodal systems that can ground reasoning in visual evidence, understand long-form video, and improve through reliable on-policy learning signals.</p>
-    <ul class="tags"><li>Multimodal LLMs</li><li>Video Understanding</li><li>LLM Post-Training</li><li>Reinforcement Learning</li><li>On-Policy Distillation</li></ul>
+    <p class="section-intro">My current interests lie at the intersection of multimodal perception, efficient knowledge transfer, and self-improving agents, with an emphasis on grounded and reliable learning.</p>
+    <ul class="tags"><li>Multimodal LLMs</li><li>Video Understanding</li><li>Online Distillation</li><li>LLM Post-Training</li><li>Agent RSI</li><li>Reinforcement Learning</li><li>On-Policy Distillation</li></ul>
   </div>
 </section>
 
@@ -47,7 +47,7 @@ title: Kanghui Tian · AI Researcher
 <section class="section" id="experience">
   <header><span class="section-label">03 / Experience</span><h2 class="section-title">Research journey</h2></header>
   <div class="timeline">
-    <article class="timeline-item"><div class="timeline-head"><h3>Video Generation Data Engineering</h3><time>May 2026 — Present</time></div><div class="org">Tongyi Lab · Wan Team</div><p>Designing classification and filtering pipelines for camera-motion data, including first-person-view video, to improve training data quality for controllable video generation.</p></article>
+    <article class="timeline-item"><div class="timeline-head"><h3>Video Generation Data Engineering</h3><time>May 2026 — Aug 2026</time></div><div class="org">Tongyi Lab · Wan Team</div><p>Designed classification and filtering pipelines for camera-motion data, including first-person-view video, to improve training data quality for controllable video generation.</p></article>
     <article class="timeline-item"><div class="timeline-head"><h3>Video Multimodal LLM Post-Training</h3><time>Dec 2025 — May 2026</time></div><div class="org">Shanghai AI Laboratory</div><p>Co-led an on-policy reinforcement learning pipeline for visual reasoning, built a unified reward system across visual tasks, and proposed the ViCuR distillation framework.</p></article>
     <article class="timeline-item"><div class="timeline-head"><h3>Multimodal Representation Learning</h3><time>Mar 2025 — Jun 2025</time></div><div class="org">Independent research project</div><p>Designed and implemented a two-stage hierarchical decoupling adaptation framework, along with its experimental and evaluation protocols.</p></article>
     <article class="timeline-item"><div class="timeline-head"><h3>Universal Medical Image Segmentation</h3><time>Sep 2024 — Apr 2025</time></div><div class="org">Scientific innovation course project</div><p>Reproduced state-of-the-art segmentation methods, analyzed deep-snake limitations, designed improvement experiments, and contributed to the resulting paper.</p></article>
@@ -58,7 +58,7 @@ title: Kanghui Tian · AI Researcher
 <section class="section" id="education">
   <header><span class="section-label">04 / Education</span><h2 class="section-title">Academic background</h2></header>
   <div class="card-grid">
-    <article class="info-card"><span class="date">STARTING SEP 2026</span><h3>Shanghai AI Laboratory &amp; Fudan University</h3><p>Ph.D. in Computer Science and Technology<br>College of Computer Science and Artificial Intelligence · Joint Program</p></article>
+    <article class="info-card"><span class="date">SEP 2026 — PRESENT</span><h3>Shanghai AI Laboratory &amp; Fudan University</h3><p>Ph.D. in Computer Science and Technology<br>College of Computer Science and Artificial Intelligence · Joint Program</p></article>
     <article class="info-card"><span class="date">2022 — 2026</span><h3>Sun Yat-sen University</h3><p>B.Eng. in Intelligent Science and Technology<br>GPA 4.22/5.00 · Rank 3/187 · Top 1.6%</p></article>
   </div>
 </section>
