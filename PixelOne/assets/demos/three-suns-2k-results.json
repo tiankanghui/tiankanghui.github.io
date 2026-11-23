@@ -1,0 +1,87 @@
+{
+  "scene": "Three Suns",
+  "model": "PixelOne-Pro-35B-A3B",
+  "input_size": [
+    2560,
+    1440
+  ],
+  "video_size": [
+    2560,
+    1440
+  ],
+  "visual_tokens_per_request": 3600,
+  "playback_speed": 1,
+  "coordinates": "Model output is applied directly in original screenshot pixels.",
+  "instructions": "Fixed game task sequence; not autonomous planning.",
+  "latency_scope": "Model inference is measured on the server. Full screenshot-to-click latency includes capture, transport, and browser execution. Warmup is excluded.",
+  "capture": "Native Chrome PNG frames, single H.264 CRF 18 encode. No resizing, padding, or playback acceleration.",
+  "presentation": "Pointer and 2x last-click detail appear after the actual click. Presentation overlays and the repeated task HUD are hidden from model inputs.",
+  "verification": {
+    "status": "verified locally",
+    "checks": [
+      "input screenshot dimensions and hashes",
+      "server prediction records",
+      "token and valid-pixel argmax",
+      "eight successful game-state transitions without correction",
+      "native video frame dimensions",
+      "original-speed single-encode export and video hashes"
+    ]
+  },
+  "scope": "Selected functional demonstrations, not benchmark accuracy or latency results. Published model weights and paper results are unchanged.",
+  "recordings": [
+    {
+      "language": "en",
+      "layout_seed": 8,
+      "video": "three-suns-en-2k.mp4",
+      "poster": "three-suns-en-2k.png",
+      "video_sha256": "deb3548446200255ba78920ffccb0e5050a5661e63a78e68371fc834f11ac44e",
+      "poster_sha256": "04a9d53d54b490d2245976fb305c0b6868b57aea511ede996710a67f73881157",
+      "duration_seconds": 35.64,
+      "successful_clicks": 8,
+      "attempted_clicks": 8,
+      "timing": {
+        "mean_model_inference_ms": 511.4044933579862,
+        "mean_http_request_ms": 985.8093834482133,
+        "mean_capture_start_to_click_completed_ms": 1779.1694686748087,
+        "max_response_to_click_dispatch_ms": 0.9693540632724762
+      },
+      "model_inference_seconds_per_step": [
+        0.4876895993947983,
+        0.5262392535805702,
+        0.5842237435281277,
+        0.48553208261728287,
+        0.4758293330669403,
+        0.5266721025109291,
+        0.5217180363833904,
+        0.4833317957818508
+      ]
+    },
+    {
+      "language": "zh",
+      "layout_seed": 2026,
+      "video": "three-suns-zh-2k.mp4",
+      "poster": "three-suns-zh-2k.png",
+      "video_sha256": "6d12adadbc7dbf1e46209f52eaa52409728e391baf1a133c0e351d92c1574311",
+      "poster_sha256": "a42f5b63343c9f6113e4824c3f0c0288152d3ce750bc430cc93b8cbed3c13bac",
+      "duration_seconds": 33.76,
+      "successful_clicks": 8,
+      "attempted_clicks": 8,
+      "timing": {
+        "mean_model_inference_ms": 472.22491493448615,
+        "mean_http_request_ms": 926.298029255122,
+        "mean_capture_start_to_click_completed_ms": 1712.0898738503456,
+        "max_response_to_click_dispatch_ms": 0.9704604744911194
+      },
+      "model_inference_seconds_per_step": [
+        0.45903434976935387,
+        0.4644273966550827,
+        0.4650329314172268,
+        0.4954550229012966,
+        0.4734247587621212,
+        0.4892989620566368,
+        0.4656421132385731,
+        0.46548378467559814
+      ]
+    }
+  ]
+}

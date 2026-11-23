@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-22",
+  "model": "PixelOne-Pro-4B",
+  "recordings": [
+    {
+      "status": "verified",
+      "scene": "spreadsheet",
+      "model": "PixelOne-Pro-4B",
+      "input_size": [
+        3840,
+        2160
+      ],
+      "video_size": [
+        3840,
+        2160
+      ],
+      "successful_clicks": 4,
+      "attempted_clicks": 4,
+      "playback_speed": 1,
+      "duration_seconds": 15.8,
+      "video_sha256": "48a7d9602089b080bea026e1e6dda72c813ac143aac643ef89d8a02b928524f5",
+      "poster_sha256": "8f3c269420a02e4666885d4bb88b3af36e3d3f368fde6d34fe32030cb70501fb",
+      "video_bytes": 1883942,
+      "native_frames": 98,
+      "late_frame_count": 0,
+      "mean_model_inference_ms": 1057.5933689251542,
+      "mean_screenshot_to_click_ms": 1880.128026008606,
+      "max_response_to_click_dispatch_ms": 0.005770474672317505,
+      "checks": [
+        "fresh full-resolution screenshot hashes and RGB pixels",
+        "matching model-server predictions and instructions",
+        "token and valid-pixel argmax",
+        "original coordinates applied without correction",
+        "application state transitions",
+        "displayed inference milliseconds",
+        "no warmup prediction reuse",
+        "source snapshots",
+        "continuous native-size video with one encode"
+      ],
+      "gpu_label": "NVIDIA H200",
+      "gpu_label_source": "maintainer confirmation"
+    },
+    {
+      "status": "verified",
+      "scene": "graphics",
+      "model": "PixelOne-Pro-4B",
+      "input_size": [
+        2560,
+        1440
+      ],
+      "video_size": [
+        2560,
+        1440
+      ],
+      "successful_clicks": 5,
+      "attempted_clicks": 5,
+      "playback_speed": 1,
+      "duration_seconds": 12.92,
+      "video_sha256": "45a87c6a08d9dad91e992b5e5661284275d3927e6c2190fb894713d45921e6c1",
+      "poster_sha256": "843fe66422a108cbb9265ea6de852a6872f93ccd516a85afdcf3b91a0b83b5c9",
+      "video_bytes": 437258,
+      "native_frames": 215,
+      "late_frame_count": 0,
+      "mean_model_inference_ms": 415.4179386794567,
+      "mean_screenshot_to_click_ms": 786.2744383513927,
+      "max_response_to_click_dispatch_ms": 0.006701797246932983,
+      "checks": [
+        "fresh full-resolution screenshot hashes and RGB pixels",
+        "matching model-server predictions and instructions",
+        "token and valid-pixel argmax",
+        "original coordinates applied without correction",
+        "application state transitions",
+        "displayed inference milliseconds",
+        "no warmup prediction reuse",
+        "source snapshots",
+        "continuous native-size video with one encode"
+      ],
+      "gpu_label": "NVIDIA H200",
+      "gpu_label_source": "maintainer confirmation"
+    },
+    {
+      "status": "verified",
+      "scene": "browser",
+      "model": "PixelOne-Pro-4B",
+      "input_size": [
+        2560,
+        1440
+      ],
+      "video_size": [
+        2560,
+        1440
+      ],
+      "successful_clicks": 4,
+      "attempted_clicks": 4,
+      "playback_speed": 1,
+      "duration_seconds": 12.88,
+      "video_sha256": "2d8392c1eeb0f8b76ca501f27f4fa264640e910a2efdb9fb4d8401cb2c733db3",
+      "poster_sha256": "095a0783d9e451f72f0a1e6b39c084bfea53739634e48c3c9e79bdef0fdbb82a",
+      "video_bytes": 1064391,
+      "native_frames": 204,
+      "late_frame_count": 0,
+      "mean_model_inference_ms": 401.65954269468784,
+      "mean_screenshot_to_click_ms": 869.1746350377798,
+      "max_response_to_click_dispatch_ms": 0.005852431058883667,
+      "checks": [
+        "fresh full-resolution screenshot hashes and RGB pixels",
+        "matching model-server predictions and instructions",
+        "token and valid-pixel argmax",
+        "original coordinates applied without correction",
+        "application state transitions",
+        "displayed inference milliseconds",
+        "no warmup prediction reuse",
+        "source snapshots",
+        "continuous native-size video with one encode"
+      ],
+      "gpu_label": "NVIDIA H200",
+      "gpu_label_source": "maintainer confirmation"
+    }
+  ],
+  "scope": "Selected live demonstrations; these timings do not replace paper benchmark results.",
+  "presentation": "Three Suns pointer, halo, post-click detail and measured inference latency. Overlays are absent from model inputs.",
+  "spreadsheet": {
+    "fictional_data": true,
+    "unique_projects": 48,
+    "unique_delivery_notes": 48,
+    "teams": 10,
+    "forecast": "Aggregated from project budgets, spending and forecast costs",
+    "checkbox_pixels": [
+      12,
+      13
+    ]
+  },
+  "instructions": "A fixed task sequence is supplied. Clicks use fresh model predictions without coordinate correction.",
+  "encoding": "Native PNG to one H.264 CRF 18 encode at original speed; no resizing or action splicing."
+}
