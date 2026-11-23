@@ -17,7 +17,7 @@
   <link rel="icon" href="assets/icons/pixelone.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/inter-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/space-grotesk.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=type4-20261123">
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -55,11 +55,11 @@
       </div>
     </section>
 
-    <section class="overview shell" id="overview" aria-labelledby="overview-title">
-      <div class="overview-heading">
-        <div><p class="eyebrow">Search during training. Direct clicks at inference.</p><h2 id="overview-title"><span class="section-number">01</span><span>Native resolution.<br>One forward pass.</span></h2></div>
-        <p>PixelOne learns from a teacher’s spatial search, then predicts precise clicks directly from native-resolution screenshots. No search or autoregressive coordinate generation is needed at inference.</p>
+    <section class="section overview shell" id="overview" aria-labelledby="overview-title">
+      <div class="section-heading">
+        <div><h2 id="overview-title"><span class="section-number">01</span><span>Overview</span></h2><p class="section-hint">Native resolution. One forward pass.</p></div>
       </div>
+      <p class="overview-summary">PixelOne learns from a teacher’s spatial search, then predicts precise clicks directly from native-resolution screenshots. No search or autoregressive coordinate generation is needed at inference.</p>
       <p class="click-idea"><strong>Click-aligned loss.</strong> Within the selected token, the click depends on the highest-scoring pixel, not the total probability inside the target box. Our winner loss encourages supervised target pixels to outrank non-target pixels.</p>
       <div class="metrics" aria-label="PixelOne-Pro-35B-A3B benchmark highlights">
         <div><strong>83.8<span>%</span></strong><span>Four-benchmark mean accuracy</span></div>
@@ -73,7 +73,7 @@
     </section>
 
     <section class="section shell" id="demos" aria-labelledby="demos-title">
-      <div class="section-heading"><div><p class="eyebrow">Watch PixelOne in action</p><h2 id="demos-title"><span class="section-number">02</span><span>Small controls. Real clicks.</span></h2></div><p class="section-hint">Native 2K &amp; 4K inputs.<br>Recordings play at original speed.</p></div>
+      <div class="section-heading"><div><h2 id="demos-title"><span class="section-number">02</span><span>Demos</span></h2><p class="section-hint">Native 2K &amp; 4K inputs. Recordings play at original speed.</p></div></div>
       <div class="video-card" aria-roledescription="carousel" aria-label="Browser demonstration videos">
         <div class="video-heading">
           <div aria-live="polite" aria-atomic="true"><h3 id="video-title">Spreadsheet · 4K</h3><p id="video-meta">Pro-4B · 3840 × 2160 · 4/4 verified clicks</p></div>
@@ -88,10 +88,13 @@
       <noscript><p>More recordings: <a href="assets/demos/three-suns-en-2k.mp4">Three Suns · English</a>, <a href="assets/demos/three-suns-zh-2k.mp4">Three Suns · 中文</a>, <a href="assets/demos/svg-editor-2k.mp4">Vector editor</a>, <a href="assets/demos/browser-navigation.mp4">Browser navigation</a>.</p></noscript>
     </section>
 
-    <section class="abstract-band" aria-labelledby="abstract-title"><div class="reading-width"><p class="eyebrow">The idea</p><h2 id="abstract-title"><span class="section-number">03</span><span>Abstract</span></h2><p>GUI grounding requires precise clicks at low latency. Recent models such as GUI-Decisions and GUI-Swift predict coordinates in one forward pass using fixed global bins with local refinement. However, screenshot downsampling removes detail needed to locate small controls, while fixed bins cover larger pixel ranges at higher resolutions. We introduce PixelOne, which transfers spatial knowledge from a search teacher to a student that predicts clicks directly from screenshots at native resolution. The teacher uses VideoJEV’s text-option scorer to select rows and columns and progressively zoom into candidate regions. The student inherits the teacher’s parameters and matches its distributions over explored regions through spatial distillation alongside box supervision. At inference, the same decision head selects a visual token, and a lightweight pixel head predicts the click within it, all in one forward pass. A click-aligned loss encourages pixels inside the target box to score above those outside. Across four benchmarks, PixelOne-Pro-35B-A3B achieves 83.8% mean accuracy, the highest among the evaluated single-forward grounders, with a mean latency of 0.43 s per target.</p></div></section>
+    <section class="section shell abstract-band" id="abstract" aria-labelledby="abstract-title">
+      <div class="section-heading"><div><h2 id="abstract-title"><span class="section-number">03</span><span>Abstract</span></h2></div></div>
+      <div class="reading-width"><p>GUI grounding requires precise clicks at low latency. Recent models such as GUI-Decisions and GUI-Swift predict coordinates in one forward pass using fixed global bins with local refinement. However, screenshot downsampling removes detail needed to locate small controls, while fixed bins cover larger pixel ranges at higher resolutions. We introduce PixelOne, which transfers spatial knowledge from a search teacher to a student that predicts clicks directly from screenshots at native resolution. The teacher uses VideoJEV’s text-option scorer to select rows and columns and progressively zoom into candidate regions. The student inherits the teacher’s parameters and matches its distributions over explored regions through spatial distillation alongside box supervision. At inference, the same decision head selects a visual token, and a lightweight pixel head predicts the click within it, all in one forward pass. A click-aligned loss encourages pixels inside the target box to score above those outside. Across four benchmarks, PixelOne-Pro-35B-A3B achieves 83.8% mean accuracy, the highest among the evaluated single-forward grounders, with a mean latency of 0.43 s per target.</p></div>
+    </section>
 
     <section class="section shell" id="method" aria-labelledby="method-title">
-      <div class="section-heading"><div><p class="eyebrow">From options to pixels</p><h2 id="method-title"><span class="section-number">04</span><span>Search teaches. The student clicks.</span></h2></div><p class="section-hint">Spatial knowledge transfer.<br>Two-level direct readout.</p></div>
+      <div class="section-heading"><div><h2 id="method-title"><span class="section-number">04</span><span>Method</span></h2><p class="section-hint">Spatial distillation, click-aligned learning, and two-level readout.</p></div></div>
       <figure class="paper-figure"><a href="assets/method-overview.svg" target="_blank" rel="noopener" aria-label="Open the method figure at full resolution"><img src="assets/method-overview.svg" width="486" height="214" loading="lazy" decoding="async" alt="PixelOne trains a row-and-column search teacher, transfers parameters and spatial distributions, and predicts clicks with token and pixel readouts."></a></figure>
       <div class="method-steps">
         <article><span class="step-number">01</span><h3>Learn from spatial search</h3><p>The student inherits the search teacher’s parameters and learns its spatial distributions alongside box supervision.</p></article>
@@ -101,7 +104,7 @@
     </section>
 
     <section class="section shell" id="results" aria-labelledby="results-title">
-      <div class="section-heading"><div><p class="eyebrow">Four benchmarks, one forward pass</p><h2 id="results-title"><span class="section-number">05</span><span>Grounding results</span></h2></div><a class="section-link" href="PixelOne.pdf" target="_blank" rel="noopener">Full comparisons in the paper ↗</a></div>
+      <div class="section-heading"><div><h2 id="results-title"><span class="section-number">05</span><span>Results</span></h2><p class="section-hint">Four benchmarks. One forward pass.</p></div><a class="section-link" href="PixelOne.pdf" target="_blank" rel="noopener">Full comparisons in the paper ↗</a></div>
       <div class="table-scroll" tabindex="0" role="region" aria-label="Benchmark results. Scroll horizontally on smaller screens.">
         <table><caption>PixelOne-Pro accuracy (%) and mean latency</caption><thead><tr><th scope="col">Model</th><th scope="col">ScreenSpot</th><th scope="col">V2</th><th scope="col">Pro</th><th scope="col">OSWorld-G</th><th scope="col">Mean ↑</th><th scope="col">Latency ↓</th></tr></thead><tbody>
           <tr data-model="4b"><th scope="row"><a href="https://huggingface.co/KangHui2200/PixelOne/tree/main/PixelOne-Pro-4B">PixelOne-Pro-4B</a></th><td>90.33</td><td>92.85</td><td>68.12</td><td>71.18</td><td class="mean">80.62</td><td>0.323 s</td></tr>
@@ -112,7 +115,7 @@
     </section>
 
     <section class="section shell" id="cases" aria-labelledby="cases-title">
-      <div class="section-heading"><div><p class="eyebrow">Look closer</p><h2 id="cases-title"><span class="section-number">06</span><span>From the screen to the click</span></h2></div><p class="section-hint">Scroll within the gallery.<br>Click an image for full resolution.</p></div>
+      <div class="section-heading"><div><h2 id="cases-title"><span class="section-number">06</span><span>Qualitative examples</span></h2><p class="section-hint">Scroll within the gallery. Open an image at full resolution.</p></div></div>
       <div class="gallery-card">
         <div class="gallery-toolbar"><div class="filters" role="group" aria-label="Case collection"><button type="button" data-collection="high" aria-pressed="true">High resolution</button><button type="button" data-collection="everyday" aria-pressed="false">Everyday UI</button><button type="button" data-collection="mechanism" aria-pressed="false">Token → pixel</button></div><span id="case-count" aria-live="polite">4 cases</span></div>
         <div class="case-scroll" id="case-scroll" tabindex="0" role="region" aria-label="High-resolution cases. Scroll vertically inside this panel." aria-describedby="gallery-help">
@@ -126,7 +129,7 @@
     </section>
 
     <section class="section shell citation-section" id="citation" aria-labelledby="citation-title">
-      <div class="section-heading"><div><p class="eyebrow">Reference</p><h2 id="citation-title"><span class="section-number">07</span><span>Citation</span></h2></div><button type="button" id="copy-citation" class="copy-button" hidden>Copy BibTeX</button></div>
+      <div class="section-heading"><div><h2 id="citation-title"><span class="section-number">07</span><span>Citation</span></h2></div><button type="button" id="copy-citation" class="copy-button" hidden>Copy BibTeX</button></div>
       <pre><code id="bibtex">@misc{tian2026pixelone,
   title   = {PixelOne: From Options to Pixels in a Single Forward for GUI Grounding},
   author  = {Kanghui Tian and Shuai Dong and Yuhan Zhu and Congcong Wang and Ji Zhao and Tianxiang Jiang and Zhixiong Zhang and Shengyuan Ding and Yi Wang and Jiaqi Wang and Yu Qiao},
